@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Herbal Oasis</title>
+    <link rel="stylesheet" href="contact.css"> 
+    <link rel="icon" href="img/herbal-logo.jpg"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/43ea14efb5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="branding">
+            <img class="logo" src="img/herbal-logo.jpg"> 
+            <h1>Herbal Oasis</h1>
+        </div>
+        <div class="contact-info">
+            <a href="#">Reach Us: 1-800-HERB-OASIS</a>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-logo">
+                <img class="logo1" src="img/herbal-logo.jpg"> 
+        </div>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="products.html">Our Products</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html">About Herbal Oasis</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="main-content">
+        <h2>Contact Us</h2>
+        <p>We would love to hear from you. Whether you have a question about our products, an inquiry about your order, or just want to say hello, feel free to get in touch with us.</p>
+        
+        <div class="contact-form">
+            <form action="index.php" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Returns & Exchanges</a></li>
+            </ul>
+        </div>
+        <img src="img/herbal-logo.jpg" alt="Herbal Oasis" class="footer-logo">
+    </footer>
+
+</body>
+
+</html>
